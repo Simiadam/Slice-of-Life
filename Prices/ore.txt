@@ -1,0 +1,14 @@
+shopore
+Értékes ércek boltja
+shopore
+dmenu.shop
+coal;32;100;0.31
+redstone;32;250;0.31
+lapis_lazuli;16;300;0.50
+iron_ingot;8;150;1.50
+gold_ingot;8;250;1.25
+quartz;32;250;0.25
+flint;8;200;0.63
+emerald;1;250;5.00
+diamond;1;850;20.00
+ancient_debris;1;1650;90.00
