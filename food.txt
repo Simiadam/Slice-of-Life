@@ -1,0 +1,23 @@
+shopfood
+Ételek boltja
+shopfood
+dmenu.shop
+melon_slice;32;250;0.30
+apple;8;225;1.25
+sweet_berries;4;275;0.5
+carrot;16;200;0.38
+potato;16;200;0.38
+beetroot;16;200;0.31
+bread;8;425;1.88
+cod;32;250;0.16
+salmon;16;250;0.5
+tropical_fish;16;350;1.25
+pufferfish;4;150;3.75
+porkchop;8;250;1.25
+beef;8;250;1.25
+chicken;8;250;1.25
+rabbit;8;250;1.25
+mutton;8;250;1.25
+cookie;8;275;1.25
+egg;16;325;0.25
+chorus_fruit;16;425;0.31
