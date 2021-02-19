@@ -27,7 +27,7 @@ snow_block;16;175;0.40
 ice;16;225;0.63
 obsidian;1;100;10.00
 crying_obsidian;4;750;15.00
-endstone;32;450;0.12
+end_stone;32;450;0.12
 purpur_block;16;300;0.50
 honey_block;16;500;2.50
 netherrack;32;200;0.12
