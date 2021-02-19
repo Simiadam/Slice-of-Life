@@ -7,7 +7,7 @@ wheat_seeds;16;125;0.36
 beetroot_seeds;16;150;0.40
 cocoa_beans;16;250;0.60
 nether_wart;16;300;0.45
-melons_seeds;8;75;0.21
+melon_seeds;8;75;0.21
 pumpkin_seeds;8;75;0.13
 pumpkin;7;350;0.70
 carved_pumpkin;7;400;0.75
