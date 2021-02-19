@@ -2,16 +2,16 @@ shopmob
 Szörny zsákányok boltja
 shopmob
 dmenu.shop
-rotten_flesh;16;125;0.31
-bone;8;175;0.50
-gunpowder;8;225;0.63
+rotten_flesh;16;125;0.61
+bone;8;175;1.00
+gunpowder;8;225;3.00
 string;16;275;0.50
-spider_eye;16;425;0.63
-slime_ball;4;450;1.25
-blaze_rod;16;550;0.63
-magma_cream;4;500;3.75
+spider_eye;16;425;0.90
+slime_ball;4;450;1.40
+blaze_rod;16;550;0.75
+magma_cream;4;500;4.00
 ghast_tear;2;350;7.50
-phantom_membrane;2;500;-1
-shulker_shell;1;300;-1
-ender_pearl;16;475;0.38
+phantom_membrane;2;500;5.00
+shulker_shell;1;300;10.00
+ender_pearl;16;475;0.57
 arrow;32;400;0.31
