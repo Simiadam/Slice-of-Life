@@ -9,7 +9,7 @@ cocoa_beans;16;250;0.60
 nether_wart;16;300;0.45
 melon_seeds;8;75;0.21
 pumpkin_seeds;8;75;0.13
-pumpkin;7;350;0.8
+pumpkin;7;350;0.71
 carved_pumpkin;7;400;0.75
 sugar_cane;64;500;0.31
 bamboo;16;350;0.31
