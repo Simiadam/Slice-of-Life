@@ -2,13 +2,14 @@ shopore
 Értékes ércek boltja
 shopore
 dmenu.shop
-coal;32;100;0.31
-redstone;32;250;0.31
+coal;32;200;0.62
+charcoal;32;195;0.33
+redstone;32;300;0.47
 lapis_lazuli;16;300;0.50
-iron_ingot;8;150;1.50
-gold_ingot;8;250;1.25
-quartz;32;250;0.25
-flint;8;200;0.63
+iron_ingot;8;150;0.90
+gold_ingot;8;250;1.50
+quartz;32;250;0.60
+flint;8;200;1.00
 emerald;1;250;5.00
-diamond;1;850;20.00
-ancient_debris;1;1650;90.00
+diamond;1;650;15.00
+ancient_debris;1;1500;100.00
