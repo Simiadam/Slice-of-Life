@@ -40,7 +40,7 @@ soul_sand;16;325;0.90
 crimson_nylium;16;350;0.40
 warped_nylium;16;350;0.40
 crimson_stem;64;400;0.30
-warped_stem;64;400;.0.30
+warped_stem;64;400;0.30
 shroomlight;4;350;2.00
 glass;16;150;0.25
 terracotta;16;250;0.25
