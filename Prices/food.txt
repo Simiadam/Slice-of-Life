@@ -18,7 +18,7 @@ porkchop;8;250;1.50
 beef;8;250;1.50
 chicken;8;200;1.00
 rabbit;8;200;1.75
-rabbit_stew;1;200;69.75
+rabbit_stew;1;200;45.00
 mutton;8;250;1.50
 cookie;8;275;0.60
 golden_carrot;8;350;2.00
