@@ -20,4 +20,3 @@ nether_star;1;14500;1000.00
 sponge;1;250;250.00
 end_rod;4;200;0.22
 lily_pad;4;200;3.75
-white_shulker_box;1;15000;-1
