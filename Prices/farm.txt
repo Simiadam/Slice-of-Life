@@ -2,11 +2,11 @@ shopfarm
 Növények és magok boltja
 shopfarm
 dmenu.shop
-wheat;16;250;0.60
-wheat_seeds;16;125;0.36
-beetroot_seeds;16;150;0.40
+wheat;16;250;0.2
+wheat_seeds;16;125;0.12
+beetroot_seeds;16;150;0.15
 cocoa_beans;16;250;0.60
-nether_wart;16;300;0.45
+nether_wart;16;300;0.35
 melon_seeds;8;75;0.21
 pumpkin_seeds;8;75;0.13
 pumpkin;7;350;0.61
