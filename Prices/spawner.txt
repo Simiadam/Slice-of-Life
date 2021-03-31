@@ -10,3 +10,4 @@ villager_spawn_egg;1;2500;-1
 zombie_spawn_egg;1;500;-1
 bee_spawn_egg;1;700;-1
 fox_spawn_egg;1;1000;200
+rabbit_spawn_egg;1;1000;100
