@@ -2,12 +2,11 @@ shopspawner
 Tojás idézők boltja
 shopspawner
 dmenu.shop
-chicken_spawn_egg;1;500;-1
-cow_spawn_egg;1;500;-1
-pig_spawn_egg;1;500;-1
-sheep_spawn_egg;1;500;-1
-villager_spawn_egg;1;2500;-1
-zombie_spawn_egg;1;500;-1
-bee_spawn_egg;1;700;-1
-fox_spawn_egg;1;1000;200
-rabbit_spawn_egg;1;1000;100
+chicken_spawn_egg;1;1500;-1
+cow_spawn_egg;1;1500;-1
+pig_spawn_egg;1;1500;-1
+sheep_spawn_egg;1;1500;-1
+zombie_spawn_egg;1;5000;-1
+bee_spawn_egg;1;1700;-1
+fox_spawn_egg;1;2000;-1
+rabbit_spawn_egg;1;2000;-1
