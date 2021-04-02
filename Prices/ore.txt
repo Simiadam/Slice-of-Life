@@ -2,7 +2,7 @@ shopore
 Értékes ércek boltja
 shopore
 dmenu.shop
-coal;32;200;0.62
+coal;32;200;0.3
 charcoal;32;195;0.33
 redstone;32;300;0.47
 lapis_lazuli;16;300;0.50
