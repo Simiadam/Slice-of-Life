@@ -1,0 +1,19 @@
+#Csontváz Harcos
+Skeleton Fighter:
+  Type: SKELETON
+  Display: '&6Csontváz Harcos'
+  Health: 30
+  Damage: 4
+  Drops:
+  - GOLD_INGOT 1to3 0.5
+  Equipment: 
+  - CHAIN_LEGGINGS LEGS
+  - CHAIN_BOOTS FEET
+  - STONE_SWORD HAND
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Despawn: true
+  
