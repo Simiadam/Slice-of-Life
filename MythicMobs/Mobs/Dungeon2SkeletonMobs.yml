@@ -1,5 +1,5 @@
 #Csontváz Harcos
-Skeleton Fighter:
+SkeletonWarrior:
   Type: SKELETON
   Display: '&6Csontváz Harcos'
   Health: 30
@@ -18,7 +18,7 @@ Skeleton Fighter:
     PreventItemPickup: true
     Despawn: true
  #Csontváz Ijász
- Skeleton Archer:
+ SkeletonArcher:
    Type: SKELETON
    Display: '&6Csontváz Íjász'
    Health: 30
