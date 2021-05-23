@@ -26,6 +26,7 @@ Skeleton Fighter:
    Drops:
    - GOLD_INGOT 1to3 0.5
    Equipment:
+   - SkeletonBow HAND
    - LEATHER_CHESTPLATE CHEST
    - IRON_BOOTS FEET
    - CHAINMAIL_HAT HEAD
