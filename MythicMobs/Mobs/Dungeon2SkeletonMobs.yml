@@ -10,10 +10,28 @@ Skeleton Fighter:
   - CHAIN_LEGGINGS LEGS
   - CHAIN_BOOTS FEET
   - STONE_SWORD HAND
+  - LEATHER_CHESTPLATE CHEST
   Options:
     PreventSunburn: true
     MovementSpeed: 0.3
     PreventOtherDrops: true
     PreventItemPickup: true
     Despawn: true
-  
+ #Csontváz Ijász
+ Skeleton Archer:
+   Type: SKELETON
+   Display: '&6Csontváz Íjász'
+   Health: 30
+   Damage: 5
+   Drops:
+   - GOLD_INGOT 1to3 0.5
+   Equipment:
+   - LEATHER_CHESTPLATE CHEST
+   - IRON_BOOTS FEET
+   - CHAINMAIL_HAT HEAD
+   Options:
+    PreventSunburn: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Despawn: true
