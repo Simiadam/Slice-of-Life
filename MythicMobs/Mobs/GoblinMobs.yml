@@ -1,17 +1,17 @@
 # Goblins
 Goblin:
   Type: ZOMBIE
-  Disguise:
-    Type: Goblin
   Display: '&6Goblin'
   Health: 20
   Damage: 3
   Drops:
   - GOLD_INGOT 1to3 0.3
   Equipment:
+  - GoblinHead HEAD
   - WOODEN_AXE HAND
-  - LEATHER_HELMET HEAD
   - LEATHER_LEGGINGS LEGS
+  - LEATHER_CHESTPLATE CHEST
+  - GOLDEN_BOOTS FEET
   Options:
     PreventSunburn: true
     MovementSpeed: 0.3
@@ -20,17 +20,17 @@ Goblin:
     Despawn: true
 Goblin2:
   Type: ZOMBIE
-  Disguise:
-    Type: Goblin
   Display: '&6Goblin'
   Health: 20
   Damage: 3
   Drops:
   - GOLD_INGOT 1to3 0.3
   Equipment:
+  - GoblinHead HEAD
   - WOODEN_HOE HAND
   - LEATHER_BOOTS FEET
   - LEATHER_LEGGINGS LEGS
+  - GOLDEN_CHESTPLATE CHEST
   - SHIELD OFFHAND
   Options:
     PreventSunburn: true
@@ -40,17 +40,17 @@ Goblin2:
     Despawn: true
 Goblin3:
   Type: ZOMBIE
-  Disguise:
-    Type: Goblin
   Display: '&6Goblin'
   Health: 20
   Damage: 3
   Drops:
   - GOLD_INGOT 1to3 0.3
   Equipment:
+  - GoblinHead HEAD
   - WOODEN_SWORD HAND
   - LEATHER_CHESTPLATE CHEST
   - LEATHER_LEGGINGS LEGS
+  - LEATHER_BOOTS FEET
   Options:
     PreventSunburn: true
     MovementSpeed: 0.3
@@ -60,8 +60,6 @@ Goblin3:
 # Goblin Mage
 GoblinMage:
   Type: ZOMBIE
-  Disguise:
-    Type: Goblin
   Display: '&6Goblin Mágus'
   Health: 20
   Damage: 4
@@ -69,12 +67,14 @@ GoblinMage:
   - GOLD_INGOT 1to3 0.8
   - SPIDER_EYE 1to3
   Equipment:
+  - GoblinHead HEAD
   - STICK HAND
   - GOLDEN_CHESTPLATE CHEST
   - LEATHER_BOOTS FEET
+  - LEATHER_LEGGINGS LEGS
   Options:
     PreventSunburn: true
-    MovementSpeed: 0.2
+    MovementSpeed: 0.3
     PreventOtherDrops: true
     PreventItemPickup: true
     Despawn: true
@@ -84,18 +84,18 @@ GoblinMage:
 # Goblin General
 GoblinGeneral:
   Type: ZOMBIE
-  Disguise:
-    Type: Goblin
   Display: '&6Páncélos Goblin'
   Health: 60
   Damage: 5
   Drops:
   - GOLD_INGOT 2to5 0.8
   Equipment:
+  - GoblinHead
   - GoblinAxe HAND
-  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
   - IRON_LEGGINGS LEGS
   - SHIELD OFFHAND
+  - IRON_BOOTS FEET
   Options:
     PreventSunburn: true
     MovementSpeed: 0.3
@@ -105,8 +105,6 @@ GoblinGeneral:
 # Goblin King
 GoblinKing:
   Type: ZOMBIE
-  Disguise:
-    Type: Goblin
   Display: '&6Goblin király'
   Health: 400
   Damage: 15
@@ -120,9 +118,11 @@ GoblinKing:
   - GOLD_BLOCK 1to3 0.9
   - DIAMOND 1to2 0.8
   Equipment:
-  - GoblinCrown HEAD
+  - GoblinHead HEAD
   - GoblinKingSword HAND
   - GOLD_LEGGINGS LEGS
+  - GOLD_BOOTS FEET
+  - GOLD_CHESTPLATE CHEST
   Options:
     PreventSunburn: true
     MovementSpeed: 0.3
