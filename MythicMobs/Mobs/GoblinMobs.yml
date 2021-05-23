@@ -1,0 +1,133 @@
+# Goblins
+Goblin:
+  Type: ZOMBIE
+  Disguise:
+    Type: Goblin
+  Display: '&6Goblin'
+  Health: 20
+  Damage: 3
+  Drops:
+  - GOLD_INGOT 1to3 0.3
+  Equipment:
+  - WOODEN_AXE HAND
+  - LEATHER_HELMET HEAD
+  - LEATHER_LEGGINGS LEGS
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Despawn: true
+Goblin2:
+  Type: ZOMBIE
+  Disguise:
+    Type: Goblin
+  Display: '&6Goblin'
+  Health: 20
+  Damage: 3
+  Drops:
+  - GOLD_INGOT 1to3 0.3
+  Equipment:
+  - WOODEN_HOE HAND
+  - LEATHER_BOOTS FEET
+  - LEATHER_LEGGINGS LEGS
+  - SHIELD OFFHAND
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Despawn: true
+Goblin3:
+  Type: ZOMBIE
+  Disguise:
+    Type: Goblin
+  Display: '&6Goblin'
+  Health: 20
+  Damage: 3
+  Drops:
+  - GOLD_INGOT 1to3 0.3
+  Equipment:
+  - WOODEN_SWORD HAND
+  - LEATHER_CHESTPLATE CHEST
+  - LEATHER_LEGGINGS LEGS
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Despawn: true
+# Goblin Mage
+GoblinMage:
+  Type: ZOMBIE
+  Disguise:
+    Type: Goblin
+  Display: '&6Goblin Mágus'
+  Health: 20
+  Damage: 4
+  Drops:
+  - GOLD_INGOT 1to3 0.8
+  - SPIDER_EYE 1to3
+  Equipment:
+  - STICK HAND
+  - GOLDEN_CHESTPLATE CHEST
+  - LEATHER_BOOTS FEET
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Despawn: true
+    MaxCombatDistance: 10
+  Skills:
+  - skill{s=Poison} @Target 0.2
+# Goblin General
+GoblinGeneral:
+  Type: ZOMBIE
+  Disguise:
+    Type: Goblin
+  Display: '&6Páncélos Goblin'
+  Health: 60
+  Damage: 5
+  Drops:
+  - GOLD_INGOT 2to5 0.8
+  Equipment:
+  - GoblinAxe HAND
+  - IRON_HELMET HEAD
+  - IRON_LEGGINGS LEGS
+  - SHIELD OFFHAND
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Despawn: true
+# Goblin King
+GoblinKing:
+  Type: ZOMBIE
+  Disguise:
+    Type: Goblin
+  Display: '&6Goblin király'
+  Health: 400
+  Damage: 15
+  BossBar:
+    Enabled: true
+    Title: 'Goblin király <mob.hp> / <mob.mhp>'
+    Color: PURPLE
+    Style: SOLID
+  Drops:
+  - GOLDEN_APPLE 1to3 0.6
+  - GOLD_BLOCK 1to3 0.9
+  - DIAMOND 1to2 0.8
+  Equipment:
+  - GoblinCrown HEAD
+  - GoblinKingSword HAND
+  - GOLD_LEGGINGS LEGS
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Despawn: true
+  Skills:
+  - skill{s=SummonGoblin} @Self 0.1

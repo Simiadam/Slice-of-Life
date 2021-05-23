@@ -1,0 +1,10 @@
+# Reaper Scythe
+ReaperScythe:
+  Id: IRON_HOE
+  Enchantments:
+  - DURABILITY:3
+  Attributes:
+    MainHand:
+      Health: 6
+      Damage: 10
+      MovementSpeed: 0.2

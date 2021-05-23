@@ -1,0 +1,26 @@
+# Easter Egg
+EasterEgg:
+  Id: Player_Head
+  Display: '&eHúsvéti Tojás'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY1NWM1MDVkN2YwMDEzNWI1ZjUyMjViNzVjZDkyZWQxMjIwMWNjOTVjNDFkZWVkOGE3N2RhOGZkNmI3Yjk2MyJ9fX0=
+# Mythical Easter Egg
+MythicalEasterEgg:
+  Id: Player_Head
+  Display: '&5Misztikus Húsvéti Tojás'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI0ZjBlODY1ZGU5ZTkwYjQ3OTQ1YWExMDliNTFmNWY3ZmQwYzNjODY4YjI1ZTE4MDk2YzBmNWFmOTFkYjE2NCJ9fX0=
+# Boss Key
+BossKey:
+  Id: rabbit_foot
+  Display: '&l&e-Nyúl láb kulcs-'
+  Lore:
+  - '&2Ezzel "beléphetsz" a Nyuszi Főnök arénájába'
+  Enchantments:
+  - DURABILITY:3
+# Banhammer
+Banhammer:
+  Id: NETHERITE_AXE
+  Enchantments:
+  - DAMAGE_ALL:6
+  - DIG_SPEED:6

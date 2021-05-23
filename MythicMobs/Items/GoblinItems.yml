@@ -1,0 +1,33 @@
+# Goblin Axe
+GoblinAxe:
+  Id: IRON_AXE
+  Enchantments:
+  - DAMAGE_ALL:2
+  Attributes:
+    Mainhand:
+      Health: 2
+      Damage: 3
+      MovementSpeed: 0.1
+# Goblin Crown
+GoblinCrown:
+  Id: GOLDEN_HELMET
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:4
+  - PROTECTION_EXPLOSIONS:4
+  - PROTECTION_FIRE:4
+  - PROTECTION_PROJECTILE:4
+  Attributes:
+    Head:
+      Health: 15
+      KnockbackResistance: 10
+# Goblin King Sword
+GoblinKingSword:
+  Id: IRON_SWORD
+  Enchantments:
+  - DAMAGE_ALL:4
+  - SWEEPING_EDGE:3
+  Attributes:
+    Head:
+      Health: 10
+      Damage: 8
+      MovementSpeed: 0.1

@@ -1,0 +1,8 @@
+Poison:
+  Cooldown: 15
+  Conditions:
+  - targetwithin 15
+  Skills:
+  - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=10}
+  - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5}@Self
+  - sound{item.totem.use} @Self

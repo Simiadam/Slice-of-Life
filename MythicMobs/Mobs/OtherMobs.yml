@@ -1,0 +1,44 @@
+# Berserker
+Berserker:
+  Type: ZOMBIE
+  Display: 'Vad Zombi'
+  Health: 50
+  Damage: 5
+  Drops:
+  - ROTTEN_FLESH 1to3 0.9
+  - GOLD_INGOT 1to2 0.2
+  - DIAMOND 1 0.1
+  Equipment:
+  - CHAINMAIL_HELMET HEAD
+  - CHAINMAIL_CHESTPLATE CHEST
+  - CHAINMAIL_LEGGINGS LEGS
+  - CHAINMAIL_BOOTS FEET
+  - STONE_SWORD HAND
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    Silent: false
+    MovementSpeed: 0.2
+    Despawn: true
+# Reaper
+Reaper:
+  Type: ZOMBIE
+  Disguise:
+    Type: Reaper
+  Display: '&8Kaszás'
+  Health: 80
+  Damage: 10
+  Drops:
+  - NETHERITE_SCRAP 2to4 0.5
+  - BONE 4to5
+  Equipment:
+  - ReaperScythe HAND
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Despawn: true
+  Skills:
+  - skill{s=Blind} @target >0 0.1

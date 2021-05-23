@@ -1,0 +1,88 @@
+# Easter Rabbit
+EasterBunny:
+  Type: Rabbit
+  Display: '&eHúsvéti Nyuszi'
+  Health: 4
+  Drops:
+  - EasterEgg 1 0.5
+  - BossKey 1 0.02
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    Despawn: true
+# Easter Killer Rabbit
+EasterKillerBunny:
+  Type: Rabbit
+  Display: '&cVérnyuszi'
+  Health: 10
+  Damage: 6
+  Drops:
+  - EasterEgg 1 0.5
+  - BossKey 1 0.02
+  Options:
+    RabbitType: "THE_KILLER_BUNNY"
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    Despawn: true
+# Easter Boss
+EasterBoss:
+  Type: ZOMBIE
+  Disguise:
+    Type: Bunny
+  Display: '&5&lNyuszi Főnök'
+  CustomKillMessages:
+  - '<target.name> zuzu-zu-zu...'
+  Health: 1000
+  Damage: 25
+  BossBar:
+    Enabled: true
+    Title: '&5&lNyuszi Főnök &f<mob.hp> &7/ &f<mob.mhp>'
+    Color: RED
+    Style: SEGMENTED_20
+  Drops:
+  - NETHERITE_SCRAP 4 0.5
+  - MythicalEasterEgg 1
+  - EasterEgg 3
+  - Banhammer 1 0.01
+  Equipment:
+  - AIR HEAD
+  - AIR CHEST
+  - AIR LEG
+  - AIR FEET
+  - Banhammer HAND
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    MaxCombatDistance: 10
+    PreventRandomEquipment: true
+  Modules:
+    ThreatTable: true
+  Skills:
+  - effect:particlesphere{p=reddust;a=50;points=20;r=3} @Self ~onTimer:10
+  - skill{s=SmashAttack} @target >0 0.2
+  - skill{s=SummonEasterKillerBunny} @self 0.1
+  - skill{s=SummonEasterBunny} @Self 0.1
+  - skill{s=Leap} @target >0 0.1
+# EasterMiniBoss
+EasterMiniBoss:
+  Type: ZOMBIE
+  Disguise:
+    Type: Mutant
+  Display: '&cMutánsnyuszi'
+  Health: 80
+  Damage: 10
+  Drops:
+  - EasterEgg 1to2 
+  Equipment:
+  - CARROT HAND
+  Options:
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    MovementSpeed: 0.3
+  Modules:
+    ThreatTable: true 

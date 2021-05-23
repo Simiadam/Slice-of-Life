@@ -1,0 +1,84 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+SmashAttack:
+  Cooldown: 7
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - teleport @target
+  - effect:sound{s=block.anvil.place;volume=1.0;pitch=0.5}
+  - effect:particles{p=sweepattack;amount=1000;hspread=20;ySpread=1;speed=0;yOFfset=2}
+  - delay 10
+  - damage{amount=20;ignorearmor=false} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+  - delay 10
+  - consume{d=10;h=20} @target
+  - sound{s=entity.generic.eat} @Self
+SummonSkeletons:
+  Cooldown: 15
+  Skills:
+  - message{m="<mob.name><&co> Arise, my minions!"} @PlayersInRadius{r=40}
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+AngrySludgePoison:
+  Cooldown: 10
+  Skills:
+  - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=15}
+  - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5}
+    @Self
+SummonEasterKillerBunny:
+  Cooldown: 20
+  Skills:
+  - message{m="<mob.name><&co> &5&lTámadjatok &5&lHíveim!"} @PlayersInRadius{r=40}
+  - delay 20
+  - summon{mob=EasterKillerBunny;amount=3;noise=5} @Self
+  - effect:particles{p=Smoke;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+SummonEasterBunny:
+  Cooldown: 20
+  Skills:
+  - delay 20
+  - summon{mob=EasterBunny;amount=1;noise=5} @Self
+  - effect:partciles{p=crop_growth_emitter;amount=1000;hspread=15;ySpread=1;speed=1;yOFfset=0.5} @Self
+Leap:
+  Cooldown: 5
+  Skills:
+  - effect:sound{s=entity.enderman.teleport} @Self
+  - leap{velocity=300} @PlayersInRadius{r=20}
+  - ignite{ticks=100} @target
+  - delay 20
+  - skill{s=NormalAttack} @Self
+NormalAttack:
+  Conditions:
+  - targetwithin 10
+  Skills:
+  - damage{a=10;ia=false;pkb=true}
+  - sound{s=entity.dragon_fireball.explode} @Self
+Blind:
+  Cooldown: 15
+  Conditions:
+  - targetwithin 10
+  Skills:
+  - effect:sound{s=entity.enderman.teleport} @Self
+  - leap{velocity=300} @PlayersInRadius{r=20}
+  - delay 20
+  - damage{a=2;ia=true;pkb=true}
+  - potion{type=BLINDNESS;duration=80;level=3}
+  - potion{type=SLOW;duration=100;level=2}
+  - sound{s=entity.witch.celebrate} @Self
+SummonGoblin:
+  Cooldown: 40
+  Conditions:
+  - targetwithin 20
+  Skills:
+  - summon{mob=GoblinMage;amount=1;noise=5} @Self
+  - summon{mob=Goblin3;amount=1;noise=5} @Self
+  - summon{mob=Goblin4;amount=1;noise=5} @Self
+  - effect:particles{p=Smoke;amount=1000;hSpread=10;ySpread=10;speed=0;yOFfset=0.5} @Self
+  - sound{s=entity.pillager.ambient} @Self
