@@ -80,7 +80,7 @@ GoblinMage:
     Despawn: true
     MaxCombatDistance: 10
   Skills:
-  - skill{s=Poison} @Target 0.2
+  - skill{s=Poison} @Self ~onTimer:200
 # Goblin General
 GoblinGeneral:
   Type: ZOMBIE
