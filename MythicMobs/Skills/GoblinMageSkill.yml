@@ -3,15 +3,15 @@ Poison:
   Conditions:
   - targetwithin 15
   Skills:
-  - projectile{onTick=PosionTick;onHit=PoisonHit;onEnd=PoisonEnd;i=1;v=12;mr=20} @Target
+  - projectile{onTick=PoisonTick;onHit=PoisonHit;onEnd=PoisonEnd;i=1;v=10;mr=20} @Target
   - sound{s=item.totem.use} @Self
   
 PoisonTick:
   Cooldown:
   Conditions:
   Skills:
-  - effect:particles{p=happyVillager;a=30;hs=0.2;vs=0,2} @origin
-  - effect:particles{p=happyVillager;color=#00fffb;a=20;hs=0.1;vs=0,2} @origin
+  - effect:particles{particle=happyVillager;a=30;hs=0.1;vs=0.1} @origin
+  - effect:particles{particle=reddust;color=#00ff73;a=20;hs=0.1;vs=0.1} @origin
 PoisonHit:
   Cooldown:
   Conditions:
