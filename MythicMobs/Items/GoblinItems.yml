@@ -31,3 +31,12 @@ GoblinKingSword:
       Health: 10
       Damage: 8
       MovementSpeed: 0.1
+#Goblin Fog
+GoblinTeeth:
+  Id: IRON_NUGGET
+  Display: '&aEgy gonosz Goblin foga'
+  Lore:
+  - '&3Gyakori barkácsolási alapanyag'
+#Goblin Arm
+#GoblinArm:
+  #Id: 
