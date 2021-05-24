@@ -3,6 +3,6 @@ SkeletonBow:
   Id: BOW
   Enchantments:
   - POWER:2
-  Attributes::
+  Attributes:
     MainHand:
     MovementSpeed: 0.1
