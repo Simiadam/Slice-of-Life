@@ -1,8 +1,27 @@
 Poison:
-  Cooldown: 15
+  Cooldown: 10
   Conditions:
   - targetwithin 15
   Skills:
-  - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=10}
-  - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5}@Self
-  - sound{item.totem.use} @Self
+  - projectile{onTick=PosionTick;onHit=PoisonHit;onEnd=PoisonEnd;i=1;v=12;mr=20} @Target
+  - sound{s=item.totem.use} @Self
+  
+PoisonTick:
+  Cooldown:
+  Conditions:
+  Skills:
+  - effect:particles{p=happyVillager;a=30;hs=0.2;vs=0,2} @origin
+  - effect:particles{p=happyVillager;color=#00fffb;a=20;hs=0.1;vs=0,2} @origin
+PoisonHit:
+  Cooldown:
+  Conditions:
+  Skills:
+  - damage {a=5}
+  - potion{type=POISON;lvl=2;duration=100}
+  
+PoisonEnd:
+  Cooldown:
+  Conditions:
+  Skills:
+  - effect:particles{p=smoke;a=30;hs=0.3;vs=0.3} @origin
+  
