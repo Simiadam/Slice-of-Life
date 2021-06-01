@@ -15,7 +15,7 @@ sugar_cane;16;500;0.25
 bamboo;16;350;0.25
 cactus;16;500;0.35
 kelp;16;200;0.25
-sea_pickle;16;500;1.00
+sea_pickle;16;500;0.50
 red_mushroom;8;150;1.00
 brown_mushroom;8;150;1.00
 crimson_fungus;4;500;0.90
